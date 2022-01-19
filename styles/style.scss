@@ -1,0 +1,268 @@
+// Other Files
+@import 'mixins.scss';
+@import 'reset.scss';
+
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    size: 16px;
+
+    & a {
+        text-decoration: none;
+
+    }
+
+}
+
+//.....................Home Page..............//
+#home {
+    display       : flex;
+    flex-direction: column;
+
+    // Home Page on Top
+
+    & #home-page-top {
+        padding-top: 10px;
+
+
+        //.....Header.....//
+
+        #header {
+            background-color: transparent;
+
+            & .header-layout {
+                display        : flex;
+                justify-content: space-evenly;
+                align-items    : center;
+
+                //  Header Logo on Header
+                & .header-left {
+                    padding: 2px;
+                }
+
+                //  Navigation Menu
+                & .header-center {
+                    margin-top: 1rem;
+
+                    & .header-navigation {
+                        display       : flex;
+                        flex-direction: space-between;
+
+                        & li {
+                            list-style   : none;
+                            padding-right: 1rem;
+                            @extend .h5-size;
+
+
+                            & a {
+                                outline: none;
+                                color  : $txt-color-w;
+
+                            }
+
+                            & :hover {
+
+                                border-bottom: 1px solid oldlace;
+                            }
+
+
+
+
+                        }
+                    }
+                }
+
+                // Download Button on Header
+                & .header-right {
+
+                    & .header-download-btn {
+                        @include button(3px, $btn-color-w);
+                        color      : $txt-color-blu;
+                        padding-top: 5px;
+                        font-size  : 14px;
+                    }
+
+                    // Download button hover
+                    & :hover {
+                        background-color: transparent;
+                        color           : $txt-color-w;
+                        border          : 2px solid $brd-line-w;
+
+                    }
+
+                }
+            }
+        }
+
+        //....Digital Business.....//
+        & #digitalBusiness {
+            padding-top: 2rem*3;
+
+            & .businessCarousel {
+                padding-left: 13rem;
+
+                // Content in Dijital Business 
+                & .carousel-content {
+                    color    : $txt-color-w;
+                    max-width: 28rem;
+
+                    // Content Title in Digital Business
+                    & .carousel-item-tt {
+                        @extend .h1-size;
+                        max-width: 20rem;
+
+                    }
+
+                    // Content Description in Digital Business
+                    & .carousel-item-desc {
+                        @extend .h4-size;
+
+                    }
+
+                    //  Content Buttons in Digital Business
+                    & .carousel-item-footer {
+                        display       : flex;
+                        padding-bottom: 1rem;
+
+                        // Get Started Button in Digital Business
+                        & a:nth-child(1) {
+                            color: $txt-color-blu;
+                            @include button(2rem, $btn-color-w);
+                            padding-top: 5px;
+                            @extend .h5-size;
+
+                        }
+
+                        & .get-started-bs:hover {
+                            @include hoverButton($btn-color-blu, $txt-color-w, $brd-line-w);
+
+                        }
+
+                        //Download Button in Digital Business
+                        & a:nth-child(2) {
+                            color: $txt-color-w;
+                            @include button(2rem, $btn-color-blu);
+                            padding-top: 5px;
+                            @extend .h5-size;
+                            margin-left: 2rem;
+                        }
+
+                        & .download-bs:hover {
+                            @include hoverButton($btn-color-w, $txt-color-blu, $brd-line-w);
+
+                        }
+
+                    }
+                }
+
+                // Carousel Controls in Digital Business
+                & .db-carousel-control {
+                    margin-bottom: 3.5rem;
+
+                    // Right & Left controls in Carousel DB
+                    & .db-control-icon {
+                        border     : 1px solid rgb(255, 255, 255);
+                        width      : 2rem;
+                        height     : 2rem;
+                        font-size  : 1.2rem;
+                        padding-top: 4px;
+                       
+  }
+                }
+
+            }
+        }
+
+
+
+    }
+
+    // Home Page Bottom
+
+    & #home-page-bottom {
+        background-color: #E8E8E8;
+        padding-top     : 5rem;
+
+        //......Service.....//
+        & #service {
+            text-align: center;
+
+            & .service-layout {
+                margin-bottom: 1rem;
+
+                //....Service section Content 
+                & .service-content {
+
+                    // Service title
+                    & .service-tt {
+                        @extend .h2-size;
+                        color: $txt-color-blck;
+
+                    }
+
+                    // Service Description
+                    & .service-desc {
+                        @extend .h4-size;
+                        margin-top: 2rem;
+                    }
+
+                }
+
+                //......Service Section Cards.......//
+
+                & .service-cards {
+                    padding-top: 2rem;
+                    display    : flex;
+                    align-items: center;
+                    margin-left: 6rem;
+
+                    // Service Card 
+                    & .service-card {
+                        margin-right : 2rem;
+                        border-radius: 4px;
+                        text-align   : left;
+
+
+                        // Service Card Header
+                        & .srvCardHeader {
+                            display   : flex;
+                            margin-top: 1rem;
+
+                            //   Card Title in Service
+                            & h5 {
+                                @extend .h2-size;
+                            }
+                        }
+
+                        // Service Card Footer
+                        & .srvCardFooter {
+                            position: relative;
+                            bottom  : 1rem;
+
+                            //   Description in Service
+                            & p {
+                                @extend .h6-size;
+                            }
+
+                            //   Klik in Service
+                            & a {
+                                @extend .h5-size;
+                                font-weight: bolder;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+    }
+}

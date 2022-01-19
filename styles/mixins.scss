@@ -1,0 +1,18 @@
+@import 'reset.scss';
+
+@mixin button($borderRadius, $btn-color) {
+    display      : block;
+    width        : 8rem;
+    height       : 2rem;
+    border-radius: $borderRadius;
+    text-align: center;
+    background-color: $btn-color;
+
+}
+
+@mixin hoverButton($bck-color-hov,$txt-col-hov,$bord-col){
+    background-color:$bck-color-hov ;
+    color:$txt-col-hov;
+    border: 2px solid $bord-col;
+
+}

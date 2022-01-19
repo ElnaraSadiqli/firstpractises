@@ -1,0 +1,304 @@
+.h1-size, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-tt {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.h2-size, #home #home-page-bottom #service .service-layout .service-content .service-tt, #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardHeader h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.625rem;
+  font-style: normal;
+}
+
+.h3-size {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-style: normal;
+}
+
+.h4-size, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-desc, #home #home-page-bottom #service .service-layout .service-content .service-desc {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.h5-size, #home #home-page-top #header .header-layout .header-center .header-navigation li, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(1), #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(2), #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter a {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+.h6-size, #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 14px;
+}
+
+.h1-size, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-tt {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.h2-size, #home #home-page-bottom #service .service-layout .service-content .service-tt, #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardHeader h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.625rem;
+  font-style: normal;
+}
+
+.h3-size {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-style: normal;
+}
+
+.h4-size, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-desc, #home #home-page-bottom #service .service-layout .service-content .service-desc {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.h5-size, #home #home-page-top #header .header-layout .header-center .header-navigation li, #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(1), #home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(2), #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter a {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+.h6-size, #home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  size: 16px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#home #home-page-top {
+  padding-top: 10px;
+}
+
+#home #home-page-top #header {
+  background-color: transparent;
+}
+
+#home #home-page-top #header .header-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home #home-page-top #header .header-layout .header-left {
+  padding: 2px;
+}
+
+#home #home-page-top #header .header-layout .header-center {
+  margin-top: 1rem;
+}
+
+#home #home-page-top #header .header-layout .header-center .header-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-between;
+          flex-direction: space-between;
+}
+
+#home #home-page-top #header .header-layout .header-center .header-navigation li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+#home #home-page-top #header .header-layout .header-center .header-navigation li a {
+  outline: none;
+  color: white;
+}
+
+#home #home-page-top #header .header-layout .header-center .header-navigation li :hover {
+  border-bottom: 1px solid oldlace;
+}
+
+#home #home-page-top #header .header-layout .header-right .header-download-btn {
+  display: block;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+  color: #81D1E8;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+#home #home-page-top #header .header-layout .header-right :hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+#home #home-page-top #digitalBusiness {
+  padding-top: 6rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel {
+  padding-left: 13rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content {
+  color: white;
+  max-width: 28rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-tt {
+  max-width: 20rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(1) {
+  color: #81D1E8;
+  display: block;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: white;
+  padding-top: 5px;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer .get-started-bs:hover {
+  background-color: #81D1E8;
+  color: white;
+  border: 2px solid white;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer a:nth-child(2) {
+  color: white;
+  display: block;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: #81D1E8;
+  padding-top: 5px;
+  margin-left: 2rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .carousel-content .carousel-item-footer .download-bs:hover {
+  background-color: white;
+  color: #81D1E8;
+  border: 2px solid white;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .db-carousel-control {
+  margin-bottom: 3.5rem;
+}
+
+#home #home-page-top #digitalBusiness .businessCarousel .db-carousel-control .db-control-icon {
+  border: 1px solid white;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding-top: 4px;
+}
+
+#home #home-page-bottom {
+  background-color: #E8E8E8;
+  padding-top: 5rem;
+}
+
+#home #home-page-bottom #service {
+  text-align: center;
+}
+
+#home #home-page-bottom #service .service-layout {
+  margin-bottom: 1rem;
+}
+
+#home #home-page-bottom #service .service-layout .service-content .service-tt {
+  color: #141414;
+}
+
+#home #home-page-bottom #service .service-layout .service-content .service-desc {
+  margin-top: 2rem;
+}
+
+#home #home-page-bottom #service .service-layout .service-cards {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6rem;
+}
+
+#home #home-page-bottom #service .service-layout .service-cards .service-card {
+  margin-right: 2rem;
+  border-radius: 4px;
+  text-align: left;
+}
+
+#home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+#home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter {
+  position: relative;
+  bottom: 1rem;
+}
+
+#home #home-page-bottom #service .service-layout .service-cards .service-card .srvCardFooter a {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=style.css.map */

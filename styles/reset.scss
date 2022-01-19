@@ -1,0 +1,64 @@
+//....Color....//
+$txt-color-w  :rgba(255, 255, 255, 1);
+$txt-color-blu:#81D1E8;
+$btn-color-w  :rgba(255, 255, 255, 1);
+$btn-color-blu:#81D1E8;
+$brd-line-w   :rgba(255, 255, 255, 1);
+$txt-color-blck:rgb(20, 20, 20);
+
+
+
+//.......Text Size Adjust......// 
+
+// Weight-700 ; Height-56px ; Size-48px
+
+.h1-size {
+
+    font-size  : 3rem;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+// Weight-500 ; Height-42px ; Size-32px
+.h2-size {
+
+    font-size  : 2rem;
+    font-weight: 500;
+    line-height: 2.625rem;
+    font-style : normal;
+}
+
+//  Weight-500 ; Height-32px ; Size-27px
+.h3-size {
+
+    font-size  : 1.7rem;
+    font-weight: 500;
+    line-height: 2rem;
+    font-style : normal;
+}
+
+// Weight-400 ; Height-32px ; Size-20px
+.h4-size {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size  : 20px;
+
+}
+
+// Weight-400 ; Height-24px ; Size-14px
+.h5-size {
+    font-style : normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size  : 14px;
+}
+
+// Weight-400 ; Height-20px ; Size-14px
+.h6-size {
+    font-style : normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    font-size  : 14px;
+}

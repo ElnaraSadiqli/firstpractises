@@ -1,0 +1,42 @@
+.h1-size {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.h2-size {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.625rem;
+  font-style: normal;
+}
+
+.h3-size {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-style: normal;
+}
+
+.h4-size {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.h5-size {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+.h6-size {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 14px;
+}
+/*# sourceMappingURL=reset.css.map */
